@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+    <a class="navbar-brand" href="#">
+      <i class="fas fa-home"></i>
+    </a>
+
+    <button class="navbar-toggler" 
+    type="button" data-toggle="collapse" 
+    data-target="#navbar_nav">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse"
+  id="navbar_nav">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">
+            Home
+          </a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link " href="#">
+            Featurse
+          </a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#">
+            Pricing
+          </a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link " href="#">
+            Disabled
+          </a>
+        </li>
+
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#">
+              Add user
+          </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              Ctigorise
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              Posts
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              Profile
+            </a>
+          </li>
+
+        
+        
+      </ul>
+
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#">
+            Log out
+          </a>
+        </li>
+      </ul>
+</div>
+
+  </nav>
+
+  <script src="https://kit.fontawesome.com/1f22affdad.js" crossorigin="anonymous"></script>
+</body>
+</html>
